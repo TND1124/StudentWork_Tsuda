@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Library">
+      <UniqueIdentifier>{36200163-0b6e-4b5a-b387-5df5a73b2244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneTitle">
+      <UniqueIdentifier>{59247616-0c0d-4c48-a413-bcfc1c921217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneGameOver">
+      <UniqueIdentifier>{edda5776-05dc-444f-a938-854336daa3d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneMain">
+      <UniqueIdentifier>{85a9d878-f75e-4bcf-92c1-ac0c622a501e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneGameOver\ゲームオーバー背景">
+      <UniqueIdentifier>{31bc6ebe-5d2d-4c57-8aab-8475b577a583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneGameOver\ゲームオーバーシーン">
+      <UniqueIdentifier>{e61e401e-4dfe-41df-9ba5-d8d7f2b02f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneMain\敵オブジェクト">
+      <UniqueIdentifier>{c1fa184c-9b03-452e-bb57-1ec1a7780a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneMain\プレイヤー体力ゲージ">
+      <UniqueIdentifier>{d4808ba0-a589-4b52-9119-bfe7d0252a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneMain\主人公オブジェクト">
+      <UniqueIdentifier>{9822bf69-def4-4749-83ba-d55f11c422f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneMain\ゲームシーン">
+      <UniqueIdentifier>{632c0cf4-d465-4fc9-aaa4-7a6454faa8a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneMain\マップを覆うオブジェクト">
+      <UniqueIdentifier>{5581a942-1e87-4021-a005-d7a3a27ec5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneMain\剣オブジェクト">
+      <UniqueIdentifier>{eee035f3-6b23-45df-9bd5-650cad5418a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneMain\地面オブジェクト">
+      <UniqueIdentifier>{e4d97969-3105-411a-a349-de721ddbb8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneTitle\タイトルシーン">
+      <UniqueIdentifier>{a383d686-a6e3-42d8-8e13-39108614c1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneTitle\タイトル背景">
+      <UniqueIdentifier>{e739aff2-f8ac-4c1e-a386-91fa165d83f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\カメラ">
+      <UniqueIdentifier>{5b0ad661-3c88-4c08-9883-22c25b3e0639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\デバッグ表示">
+      <UniqueIdentifier>{f0617252-b956-4a21-a06c-5b797e82631c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\デバイス">
+      <UniqueIdentifier>{a1c3ed36-66f8-4cc3-897a-57efe29c6dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\文字表示">
+      <UniqueIdentifier>{e751880b-9379-46d5-8540-ede1e3b63fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\キー入力">
+      <UniqueIdentifier>{634716ee-9e10-4e1d-983e-9c89082e8d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\光源">
+      <UniqueIdentifier>{927b2fa6-ae40-4888-be97-5d017705d77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\3Dモデル">
+      <UniqueIdentifier>{abaeb439-3b57-4ff8-a2e4-c6d61b9c01b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\当たり判定">
+      <UniqueIdentifier>{51290430-2207-4ffd-a07c-cbfec65a8294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\セーブ＆ロード">
+      <UniqueIdentifier>{472ad9cd-6652-4c26-824d-e2d537d6d620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\シーン管理">
+      <UniqueIdentifier>{f8237db6-b1b6-4eaf-8876-c09fd597be72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\描画">
+      <UniqueIdentifier>{8b615acc-74b7-494a-807f-617a18abffb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\サウンド">
+      <UniqueIdentifier>{16965b2f-7aec-4186-adea-2968a51efb0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\タスク管理">
+      <UniqueIdentifier>{5569bb38-f83d-4bed-9bf9-cd67378ca462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Library\画像管理">
+      <UniqueIdentifier>{2e14bf15-7e04-4a48-92fd-da274cde16bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneGameClear">
+      <UniqueIdentifier>{4d7a93cf-7aa7-4799-9551-298bf48bd412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneGameClear\ゲームクリア背景">
+      <UniqueIdentifier>{1adf5f7e-28ee-4d6f-bd3d-0def4a0cdd67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CSceneGameClear\ゲームクリアシーン">
+      <UniqueIdentifier>{83765982-8db7-4040-99a0-6788f7d8770e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>ソース ファイル\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameOverBackGround.cpp">
+      <Filter>ソース ファイル\CSceneGameOver\ゲームオーバー背景</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneGameOver.cpp">
+      <Filter>ソース ファイル\CSceneGameOver\ゲームオーバーシーン</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>ソース ファイル\CSceneMain\敵オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="CHpGauge.cpp">
+      <Filter>ソース ファイル\CSceneMain\プレイヤー体力ゲージ</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>ソース ファイル\CSceneMain\主人公オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMain.cpp">
+      <Filter>ソース ファイル\CSceneMain\ゲームシーン</Filter>
+    </ClCompile>
+    <ClCompile Include="CSky.cpp">
+      <Filter>ソース ファイル\CSceneMain\マップを覆うオブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="CSword.cpp">
+      <Filter>ソース ファイル\CSceneMain\剣オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="Cyuka.cpp">
+      <Filter>ソース ファイル\CSceneMain\地面オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneTitle.cpp">
+      <Filter>ソース ファイル\CSceneTitle\タイトルシーン</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleBackGround.cpp">
+      <Filter>ソース ファイル\CSceneTitle\タイトル背景</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>ソース ファイル\Library\カメラ</Filter>
+    </ClCompile>
+    <ClCompile Include="CDebug.cpp">
+      <Filter>ソース ファイル\Library\デバッグ表示</Filter>
+    </ClCompile>
+    <ClCompile Include="CDevice3D.cpp">
+      <Filter>ソース ファイル\Library\デバイス</Filter>
+    </ClCompile>
+    <ClCompile Include="CFont.cpp">
+      <Filter>ソース ファイル\Library\文字表示</Filter>
+    </ClCompile>
+    <ClCompile Include="CInput.cpp">
+      <Filter>ソース ファイル\Library\キー入力</Filter>
+    </ClCompile>
+    <ClCompile Include="CLight.cpp">
+      <Filter>ソース ファイル\Library\光源</Filter>
+    </ClCompile>
+    <ClCompile Include="CModel.cpp">
+      <Filter>ソース ファイル\Library\3Dモデル</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース ファイル\Library\当たり判定</Filter>
+    </ClCompile>
+    <ClCompile Include="CSaveData.cpp">
+      <Filter>ソース ファイル\Library\セーブ＆ロード</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>ソース ファイル\Library\シーン管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CShader.cpp">
+      <Filter>ソース ファイル\Library\描画</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>ソース ファイル\Library\サウンド</Filter>
+    </ClCompile>
+    <ClCompile Include="CTaskSystem.cpp">
+      <Filter>ソース ファイル\Library\タスク管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureManager.cpp">
+      <Filter>ソース ファイル\Library\画像管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CModelManager.cpp">
+      <Filter>ソース ファイル\Library\3Dモデル</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneGameClear.cpp">
+      <Filter>ソース ファイル\CSceneGameClear\ゲームクリアシーン</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameClearBackGround.cpp">
+      <Filter>ソース ファイル\CSceneGameClear\ゲームクリア背景</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>ソース ファイル\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAssert.h">
+      <Filter>ソース ファイル\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameOverBackGround.h">
+      <Filter>ソース ファイル\CSceneGameOver\ゲームオーバー背景</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneGameOver.h">
+      <Filter>ソース ファイル\CSceneGameOver\ゲームオーバーシーン</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy.h">
+      <Filter>ソース ファイル\CSceneMain\敵オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="CHpGauge.h">
+      <Filter>ソース ファイル\CSceneMain\プレイヤー体力ゲージ</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>ソース ファイル\CSceneMain\主人公オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMain.h">
+      <Filter>ソース ファイル\CSceneMain\ゲームシーン</Filter>
+    </ClInclude>
+    <ClInclude Include="CSky.h">
+      <Filter>ソース ファイル\CSceneMain\マップを覆うオブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="Cyuka.h">
+      <Filter>ソース ファイル\CSceneMain\地面オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneTitle.h">
+      <Filter>ソース ファイル\CSceneTitle\タイトルシーン</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleBackGround.h">
+      <Filter>ソース ファイル\CSceneTitle\タイトル背景</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>ソース ファイル\Library\カメラ</Filter>
+    </ClInclude>
+    <ClInclude Include="CDebug.h">
+      <Filter>ソース ファイル\Library\デバッグ表示</Filter>
+    </ClInclude>
+    <ClInclude Include="CDevice3D.h">
+      <Filter>ソース ファイル\Library\デバイス</Filter>
+    </ClInclude>
+    <ClInclude Include="CFont.h">
+      <Filter>ソース ファイル\Library\文字表示</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>ソース ファイル\Library\キー入力</Filter>
+    </ClInclude>
+    <ClInclude Include="CLight.h">
+      <Filter>ソース ファイル\Library\光源</Filter>
+    </ClInclude>
+    <ClInclude Include="CModel.h">
+      <Filter>ソース ファイル\Library\3Dモデル</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ソース ファイル\Library\当たり判定</Filter>
+    </ClInclude>
+    <ClInclude Include="CSaveData.h">
+      <Filter>ソース ファイル\Library\セーブ＆ロード</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>ソース ファイル\Library\シーン管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CShader.h">
+      <Filter>ソース ファイル\Library\描画</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>ソース ファイル\Library\サウンド</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskSystem.h">
+      <Filter>ソース ファイル\Library\タスク管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureManager.h">
+      <Filter>ソース ファイル\Library\画像管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelManager.h">
+      <Filter>ソース ファイル\Library\3Dモデル</Filter>
+    </ClInclude>
+    <ClInclude Include="CSword.h">
+      <Filter>ソース ファイル\CSceneMain\剣オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneGameClear.h">
+      <Filter>ソース ファイル\CSceneGameClear\ゲームクリアシーン</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameClearBackGround.h">
+      <Filter>ソース ファイル\CSceneGameClear\ゲームクリア背景</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Asset\Shader\Model3D.fx">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Asset\Shader\Shadow.fx">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Asset\Shader\Texture.fx">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+</Project>
